@@ -8,7 +8,7 @@ On April 12th 2016, a Neuron tutorial/demo will be given at the Young Researcher
 
 The content of this tutorial is located here:
 
-https://github.com/wvangeit/EPhysModelsTutorials/blob/master/YRE2016/README.md
+[](YRE2016/README.md)
 
 # Contributors
 
