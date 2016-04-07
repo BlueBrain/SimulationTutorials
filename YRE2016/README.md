@@ -1,4 +1,8 @@
-### Google drive
+# Neuron modeling demo @ HBP Young Research Event 2016
+
+This demo consists of four parts: Neuron simulator, NMC portal, eFEL and BluePyOpt
+
+### Extra material
 
 A **Google drive** was created with **extra material**
 
