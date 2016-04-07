@@ -4,7 +4,7 @@ This repository contains the code for tutorials given by the Blue Brain Project 
 
 ## HBP Young Researchers Event 2016
 
-### Neocortical Microcircuit Portal (NMC Portal)
+### Neocortical Microcircuit Collaboration Portal (NMC Portal)
 
 This portal provides an online public resource of the Blue Brain Project's first release of a digital reconstruction of the microcircuitry of juvenile Rat somatosensory cortex, access to experimental data sets used in the reconstruction, and the resulting models.
 
