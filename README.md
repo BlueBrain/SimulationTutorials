@@ -16,7 +16,7 @@ https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
 
 This drive contains the slides, and a Virtual Machine that can be used to run the demoed software.
 
-## Neuron simulator
+### Neuron simulator
 
 The first part of the tutorial consists an introduction to the Neuron simulator itself.
 
