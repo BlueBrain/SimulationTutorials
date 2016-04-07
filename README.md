@@ -9,31 +9,6 @@ On April 12th 2016, a Neuron tutorial/demo will be given at the Young Researcher
 The content of this tutorial is located here:
 https://github.com/wvangeit/EPhysModelsTutorials/blob/master/YRE2016/README.md
 
-### Google drive
-
-A Google drive was created with extra material 
-
-https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
-
-This drive contains the slides, and a Virtual Machine that can be used to run the demoed software.
-
-### Neuron simulator
-
-The first part of the tutorial consists an introduction to the Neuron simulator itself.
-
-Neuron simulator website: http://neuron.yale.edu/neuron/
-
-### Neocortical Microcircuit Collaboration Portal (NMC Portal)
-
-This portal provides an online public resource of the Blue Brain Project's first release of a digital reconstruction of the microcircuitry of juvenile Rat somatosensory cortex, access to experimental data sets used in the reconstruction, and the resulting models.
-
-URL: https://bbp.epfl.ch/nmc-portal/welcome
-
-### eFEL
-
-### BluePyOpt
-
-
 # Contributors
 
 The content provided in this repository was created by the following contributors in the context of the Human Brain Project and the Blue Brain Project:
