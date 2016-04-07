@@ -1,4 +1,4 @@
-# EPhys modeling tutorials
+# Data-driven Electrophysiological modeling tutorials
 
 This repository contains the code for tutorials given by the Blue Brain Project related to electrophysiological modeling
 
@@ -16,3 +16,10 @@ URL: https://bbp.epfl.ch/nmc-portal/welcome
 
 Link to Google drive:
 https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
+
+# Contributors
+
+The content provided in this repository was created by the following contributors in the context of the Human Brain Project and the Blue Brain Project:
+
+* Elisabetta Iavarone @ Blue Brain Project
+* Werner Van Geit @ Blue Brain Project
