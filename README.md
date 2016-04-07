@@ -14,3 +14,5 @@ The content provided in this repository was created by the following contributor
 
 * Elisabetta Iavarone @ Blue Brain Project, EPFL, Switzerland
 * Werner Van Geit @ Blue Brain Project, EPFL, Switzerland
+* Bruno Magalhaes @ Blue Brain Project, EPFL, Switzerland
+* Francesco Cremonesi @ Blue Brain Project, EPFL, Switzerland
