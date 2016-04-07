@@ -21,5 +21,5 @@ https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
 
 The content provided in this repository was created by the following contributors in the context of the Human Brain Project and the Blue Brain Project:
 
-* Elisabetta Iavarone @ Blue Brain Project
-* Werner Van Geit @ Blue Brain Project
+* Elisabetta Iavarone @ Blue Brain Project, EPFL, Switzerland
+* Werner Van Geit @ Blue Brain Project, EPFL, Switzerland
