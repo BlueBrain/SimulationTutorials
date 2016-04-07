@@ -8,6 +8,14 @@ This repository contains the code for tutorials given by the Blue Brain Project 
 
 ## HBP Young Researchers Event 2016
 
+### Google drive
+
+A Google drive was created with extra material 
+
+https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
+
+This drive contains the slides, and a Virtual Machine that can be used to run the demoed software.
+
 ### Neocortical Microcircuit Collaboration Portal (NMC Portal)
 
 This portal provides an online public resource of the Blue Brain Project's first release of a digital reconstruction of the microcircuitry of juvenile Rat somatosensory cortex, access to experimental data sets used in the reconstruction, and the resulting models.
@@ -18,8 +26,6 @@ URL: https://bbp.epfl.ch/nmc-portal/welcome
 
 ### BluePyOpt
 
-Link to Google drive:
-https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
 
 # Contributors
 
