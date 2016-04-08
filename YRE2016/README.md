@@ -1,7 +1,12 @@
 # Neuron modeling demo @ HBP Young Research Event 2016
 
-This demo consists of four parts: **Neuron simulator**, **NMC portal**, **eFEL** and **BluePyOpt**. 
-For more information on each of these subjects, look at the respective headings below.
+This demo consists of four parts:
+* [**Neuron simulator**](Neuron/)
+* [**NMC portal**](NMC/)
+* [**eFEL**](eFEL/)
+* [**BluePyOpt**](BluePyOpt/)
+
+Click on the links above to jump to the respective tutorial pages.
 
 ## Binder instances
 
