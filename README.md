@@ -6,7 +6,7 @@ This repository contains the code for tutorials given by the Blue Brain Project 
 
 On April 12th 2016, a Neuron tutorial/demo will be given at the Young Researchers Event in Budapest https://education.humanbrainproject.eu/web/hbp-education-portal/young-researchers-budapest
 
-The content of this tutorial is located [here](YRE2016/README.md)
+The content of this tutorial is located [here](YRE2016/)
 
 # Contributors
 
