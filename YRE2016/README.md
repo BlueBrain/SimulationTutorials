@@ -5,7 +5,7 @@ For more information on each of these subjects, look at the respective headings 
 
 ## Binder instances
 
-Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/)
+Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/, support by The Freeman Lab @ HHMI Janelia Research Campus).
 
 To access the Binder instance set up for this demo, visit:
 http://mybinder.org/repo/wvangeit/EPhysModelingTutorials/YRE2016
