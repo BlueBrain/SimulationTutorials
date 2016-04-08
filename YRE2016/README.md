@@ -8,7 +8,7 @@ For more information on each of these subjects, look at the respective headings 
 Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/, support by The Freeman Lab @ HHMI Janelia Research Campus).
 
 To access the Binder instance set up for this demo, visit:
-http://mybinder.org/repo/BlueBrain/SimulationTutorials
+http://mybinder.org/repo/BlueBrain/SimulationTutorials/YRE2016
 
 ## Extra material
 
