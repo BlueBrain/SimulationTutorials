@@ -10,7 +10,7 @@ Click on the links above to jump to the respective tutorial pages.
 
 ## Binder instances
 
-Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/, support by The Freeman Lab @ HHMI Janelia Research Campus).
+Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/, supported by The Freeman Lab @ HHMI Janelia Research Campus).
 
 To access the Binder instance set up for this demo, visit:
 http://mybinder.org/repo/BlueBrain/SimulationTutorials/YRE2016
