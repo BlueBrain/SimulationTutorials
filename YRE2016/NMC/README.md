@@ -15,3 +15,4 @@ https://bbp.epfl.ch/nmc-portal/tools
 
 You get the following to see the following GUI:
 
+![NMC model package GUI](nmc_package_gui.png)
