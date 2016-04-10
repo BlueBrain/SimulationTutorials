@@ -4,4 +4,6 @@ The **Electrophys Feature Extraction Library** (eFEL) allows neuroscientists to 
 
 https://github.com/BlueBrain/eFEL
 
-Look [here](eFEL/) for the content.
+The tutorial is explained in the following notebook: [efel.ipynb](efel.ipynb)
+
+This notebook can be run from a browser: [binder instance](http://mybinder.org/repo/BlueBrain/SimulationTutorials/YRE2016/eFEL/efel.ipynb)
