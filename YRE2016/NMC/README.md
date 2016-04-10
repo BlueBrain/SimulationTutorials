@@ -7,7 +7,7 @@ URL: https://bbp.epfl.ch/nmc-portal/welcome
 From the NMC portal we can download e.g. a model of a Layer 5 Thick Tufted Pyramidal cell: 
 https://bbp.epfl.ch/nmc-portal/microcircuit#/metype/L5_TTPC2_cADpyr/details
 
-This model is also available in this repository [here]("L5_TTPC2_cADpyr232_1\")
+This model is also available in this repository [here](L5\_TTPC2\_cADpyr232\_1)
 
 When you run this model according to these instructions:
 
