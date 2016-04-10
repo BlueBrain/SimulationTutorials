@@ -6,6 +6,6 @@ https://github.com/BlueBrain/BluePyOpt
 
 The demo is explained in the following notebooks: 
 - An optimisation of two parameters of a single compartmental cell: [simplecell/simplecell.ipynb](simplecell/simplecell.ipynb)
-- Optimisation of Rat Neocortical Layer 5 Pyramidal Cell: [l5pc/L5PC.ipynb]
+- Optimisation of Rat Neocortical Layer 5 Pyramidal Cell: [l5pc/L5PC.ipynb](l5pc/L5PC.ipynb)
 
 These notebooks can be run from a browser: [binder instance](http://mybinder.org/repo/BlueBrain/SimulationTutorials/YRE2016/BluePyOpt)
