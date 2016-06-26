@@ -1,0 +1,31 @@
+{
+    "basal": [
+        "Ih",
+	"NaV",
+	"Kv3_1",
+	"Im_v2",
+	"pas"
+    ],
+    "somatic": [
+        "NaV",
+        "SK",
+        "Kv3_1",
+        "Ca_HVA",
+        "Ca_LVA",
+        "CaDynamics",
+        "Ih",
+	"pas"
+    ],
+    "axonal": [
+        "NaV",
+        "K_T",
+        "Kd",
+        "Kv2like",
+        "Kv3_1",
+        "SK",
+        "Ca_HVA",
+	"Ca_LVA",
+	"CaDynamics",
+	"pas"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "StepPos3": {
+        "stimuli": [
+            {
+                "delay": 270,
+                "amp": 0.11,
+                "duration": 1000,
+                "totduration": 1540
+            }
+        ]
+    },
+    "StepNeg2": {
+        "stimuli": [
+            {
+                "delay": 270,
+                "amp": -0.05,
+                "duration": 1000,
+                "totduration": 1540
+            }
+        ]
+    },
+    "StepNeg1": {
+        "stimuli": [
+            {
+                "delay": 270,
+                "amp": -0.11,
+                "duration": 1000,
+                "totduration": 1540
+            }
+        ]
+    }
+}
