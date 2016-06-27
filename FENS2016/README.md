@@ -3,8 +3,6 @@
 The main part of this demo consists of :
 * [**Optimising parameters of full dendritic model**](ABI_model/)
 
-Click on the links above to jump to the respective tutorial pages.
-
 ## Binder instances
 
 Most examples in this demo can be run from a web browser, thanks to Binder (http://mybinder.org/, supported by The Freeman Lab @ HHMI Janelia Research Campus).
@@ -16,6 +14,6 @@ http://mybinder.org/repo/BlueBrain/SimulationTutorials/FENS2016
 
 A **Google drive** was created with **extra material**
 
-https://drive.google.com/open?id=0B5FLVTgErnMSc200LWFBQVMwOVU
+https://drive.google.com/drive/u/1/folders/0B5FLVTgErnMSdXZWYjU2SHlXZ3c
 
-This drive contains the **slides**, and a **Virtual Machine** that can be used to run the demoed software.
+This drive contains a **Virtual Machine** that can be used to run the demoed software.
