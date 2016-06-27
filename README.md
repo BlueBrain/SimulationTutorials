@@ -13,7 +13,8 @@ The content of this tutorial is located [here](YRE2016/)
 
 ### FENS 
 
-On July 1st 2016, we present a HBP Neuroinformatics and Single cell modeling Tutorial at the Cells, Circuit and Computation FENS Workshop 
+On July 1st 2016, we present a HBP Neuroinformatics and Single cell modeling Tutorial at the 
+[Cells, Circuit and Computation FENS Workshop](http://www.alleninstitute.org/what-we-do/brain-science/events-training/events/fens-2016/)
 jointly organised by the Human Brain Project and the Allen Brain Institute for Brain Science.
 
 The content of this tutorial is located [here](FENS2016/)
