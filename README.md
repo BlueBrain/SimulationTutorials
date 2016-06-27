@@ -1,5 +1,7 @@
 # Electrophysiological data-driven modeling tutorials
 
+[![Join the chat at https://gitter.im/BlueBrain/SimulationTutorials](https://badges.gitter.im/BlueBrain/SimulationTutorials.svg)](https://gitter.im/BlueBrain/SimulationTutorials?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains the code for tutorials given by the Blue Brain Project related to electrophysiological data-driven modeling
 
 ## HBP Young Researchers Event 2016
