@@ -31,6 +31,7 @@ RUN rm nrn-7.4.x86_64.deb
 RUN pip install git+git://github.com/BlueBrain/deap
 RUN pip install bluepyopt
 RUN pip install neurom
+RUN pip install allensdk
 
 RUN wget https://bbp.epfl.ch/nmc-portal/documents/10184/1921755/L5_TTPC2_cADpyr232_1.zip
 RUN unzip L5_TTPC2_cADpyr232_1.zip
