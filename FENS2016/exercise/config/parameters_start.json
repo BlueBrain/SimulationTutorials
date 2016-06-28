@@ -1,0 +1,308 @@
+[
+    {
+        "param_name": "g_pas",
+        "sectionlist": "somatic",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 7.60303e-05
+    },
+    {
+        "param_name": "e_pas",
+        "sectionlist": "somatic",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": -63.3146
+    },
+    {
+        "param_name": "g_pas",
+        "sectionlist": "axonal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 0.00200656
+    },
+    {
+        "param_name": "e_pas",
+        "sectionlist": "axonal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": -71.1766
+    },
+    {
+        "param_name": "g_pas",
+        "sectionlist": "basal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 1.10433e-07
+    },
+    {
+        "param_name": "e_pas",
+        "sectionlist": "basal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": -62.7085 
+    },
+    {
+        "param_name": "cm",
+        "sectionlist": "somatic",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 2.1356
+    },
+    {
+        "param_name": "Ra",
+        "sectionlist": "somatic",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 72.0757
+    },
+    {
+        "param_name": "cm",
+        "sectionlist": "axonal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 7.6668
+    },
+    {
+        "param_name": "Ra",
+        "sectionlist": "axonal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value" :100.799
+    },
+    {
+        "param_name": "cm",
+        "sectionlist": "basal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 1.4357
+    },
+    {
+        "param_name": "Ra",
+        "sectionlist": "basal",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 50.8833
+    },
+    {
+        "param_name": "v_init",
+        "type": "global",
+        "value": -81
+    },
+    {
+        "param_name": "celsius",
+        "type": "global",
+        "value": 34
+    },
+    {
+        "param_name": "ena",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": 53.0
+    },
+    {
+        "param_name": "ek",
+        "sectionlist": "all",
+        "type": "section",
+        "dist_type": "uniform",
+        "value": -107
+    },
+    {
+        "param_name": "gbar_NaV",
+        "mech": "NaV",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "value": 0.0156789,
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_K_T",
+        "mech": "K_T",
+        "value": 0.0013593,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_Kd",
+        "mech": "Kd",
+        "value": 0.00833495,
+        "dist_type": "uniform",
+        "mech_param": "gbar_Kd",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_Kv2like",
+        "mech": "Kv2like",
+        "value": 0.0010615,
+        "dist_type": "uniform",
+        "mech_param": "Kv2like",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_Kv3_1",
+        "mech": "Kv3_1",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "value": 0.0100065,
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_SK",
+        "mech": "SK",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+	"value": 0.00661877, 
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_Ca_HVA",
+        "mech": "Ca_HVA",
+	"value": 3.83558e-05,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_Ca_LVA",
+        "mech": "Ca_LVA",
+        "value": 0.00775489,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gamma_CaDynamics",
+        "mech": "CaDynamics",
+        "value": 0.0477399,
+        "dist_type": "uniform",
+        "mech_param": "gamma",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "decay_CaDynamics",
+        "mech": "CaDynamics",
+        "value": 811.497,
+        "dist_type": "uniform",
+        "mech_param": "decay",
+        "type": "range",
+        "sectionlist": "axonal"
+    },
+    {
+        "param_name": "gbar_NaV",
+        "mech": "NaV",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "value": 0.04595,
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_SK",
+        "mech": "SK",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+	"value": 0.0001051137, 
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_Kv3_1",
+        "mech": "Kv3_1",
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "value": 0.7294,
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_Ca_HVA",
+        "mech": "Ca_HVA",
+	"value": 5.9455e-05,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_Ca_LVA",
+        "mech": "Ca_LVA",
+        "value": 0.0060162,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gamma_CaDynamics",
+        "mech": "CaDynamics",
+        "value": 0.00169922,
+        "dist_type": "uniform",
+        "mech_param": "gamma",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "decay_CaDynamics",
+        "mech": "CaDynamics",
+        "value": 326.442,
+        "dist_type": "uniform",
+        "mech_param": "decay",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_Ih",
+        "mech": "Ih",
+        "value": 3.46139e-06,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "somatic"
+    },
+    {
+        "param_name": "gbar_NaV",
+        "mech": "NaV",
+        "value": 0.0205486,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "basal"
+    },
+    {
+        "param_name": "gbar_Kv3_1",
+        "mech": "Kv3_1",
+        "value": 0.205458,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "basal"
+    },
+    {
+        "param_name": "gbar_Im_v2",
+        "mech": "Im_v2",
+        "value": 0.00949979,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "basal"
+    },
+    {
+        "param_name": "gbar_Ih",
+        "mech": "Ih",
+        "value": 7.75636e-06,
+        "dist_type": "uniform",
+        "mech_param": "gbar",
+        "type": "range",
+        "sectionlist": "basal"
+    }
+]
