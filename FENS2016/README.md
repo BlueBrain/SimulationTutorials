@@ -2,6 +2,7 @@
 
 The main part of this demo consists of :
 * [**Optimising parameters of full dendritic model**](ABI_model/)
+* [**An exciting challenge for the participants (with amazing prizes !)**](exercise/)
 
 ## Binder instances
 
