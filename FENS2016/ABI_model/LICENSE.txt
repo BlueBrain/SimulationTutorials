@@ -1,0 +1,4 @@
+The experimental data files in this directory are made available for educational 
+purposes to speed up downloading.
+The original files are located at http://celltypes.brain-map.org, and these 
+files are still licensed according to the policies on that website.
