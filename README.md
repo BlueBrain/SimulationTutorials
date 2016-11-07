@@ -5,7 +5,14 @@
 
 This repository contains the code for tutorials given by the Blue Brain Project related to electrophysiological data-driven modeling
 
-### FENS 2016
+## HBP School 2016
+
+On November 29th 2016, we present a Cell Types Data and Modelling Tutorial at the 
+[Third HBP School](https://education.humanbrainproject.eu/web/third-hbp-school).
+
+The content of this tutorial is located [here](HBPSchool2016/)
+
+## FENS 2016
 
 On July 1st 2016, we present a HBP Neuroinformatics and Single cell modeling Tutorial at the 
 [Cells, Circuit and Computation FENS Workshop](http://www.alleninstitute.org/what-we-do/brain-science/events-training/events/fens-2016/)
@@ -29,5 +36,6 @@ The content provided in this repository was created by the following contributor
 
 * Elisabetta Iavarone @ Blue Brain Project, EPFL, Switzerland
 * Werner Van Geit @ Blue Brain Project, EPFL, Switzerland
+* Christian Roessert @ Blue Brain Project, EPFL, Switzerland
 * Bruno Magalhaes @ Blue Brain Project, EPFL, Switzerland
 * Francesco Cremonesi @ Blue Brain Project, EPFL, Switzerland
