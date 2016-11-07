@@ -34,8 +34,8 @@ If you have a **question** regarding the content of this repo, feel free to post
 
 The content provided in this repository was created by the **following contributors** in the context of the Human Brain Project and the Blue Brain Project:
 
-** Elisabetta Iavarone @ Blue Brain Project, EPFL, Switzerland
-** Werner Van Geit @ Blue Brain Project, EPFL, Switzerland
-** Christian Roessert @ Blue Brain Project, EPFL, Switzerland
-** Bruno Magalhaes @ Blue Brain Project, EPFL, Switzerland
-** Francesco Cremonesi @ Blue Brain Project, EPFL, Switzerland
+* Elisabetta Iavarone @ Blue Brain Project, EPFL, Switzerland
+* Werner Van Geit @ Blue Brain Project, EPFL, Switzerland
+* Christian Roessert @ Blue Brain Project, EPFL, Switzerland
+* Bruno Magalhaes @ Blue Brain Project, EPFL, Switzerland
+* Francesco Cremonesi @ Blue Brain Project, EPFL, Switzerland
