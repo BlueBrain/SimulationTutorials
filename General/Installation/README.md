@@ -6,6 +6,11 @@ There are **two ways** you can go about this:
 This VM will have all the necessary software preinstalled.                
 * Install the software yourself: Neuron, IPython notebooks, eFEL, BluePyOpt
 
+## Support
+
+Foremost, if you have any questions/problems regarding installing this software on your system, 
+please let us know on [our chat channel](https://gitter.im/BlueBrain/SimulationTutorials).
+
 ## VirtualBox                                                                    
 
 We provide **Virtual Machines** with preinstalled software.
