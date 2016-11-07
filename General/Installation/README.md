@@ -25,7 +25,7 @@ You can **download** the necessary installers from [their download page](https:/
 To test your installation download the VM relevant to your Tutorial, and boot it in VirtualBox.
 An example of such a VM (used for the FENS 2016 tutorial) is located [here](https://drive.google.com/open?id=0B5FLVTgErnMSbmZhZlFRbzF3T1U).
 
-## **All instructions below are only necessary if you don't use the VM**
+## ** ! All instructions below are only necessary if you don't use the VM ! **
 
 ## Python
 
