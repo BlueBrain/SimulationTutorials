@@ -25,17 +25,34 @@ You can **download** the necessary installers from [their download page](https:/
 To test your installation download the VM relevant to your Tutorial, and boot it in VirtualBox.
 An example of such a VM (used for the FENS 2016 tutorial) is located [here](https://drive.google.com/open?id=0B5FLVTgErnMSbmZhZlFRbzF3T1U).
 
+## **All instructions below are only necessary if you don't use the VM**
+
 ## Python
+
+A requirement for the installation of all the tools below is Python.
+We need version 2.7+ (some tools are not compatible with Python 3 yet).
 
 #### Linux
 
+Linux distributions should come with Python preinstalled. It could be that Python 2 is not automatically installed.
+In the latest Ubuntu e.g. you might have to install it using:
+```
+sudo apt-get install python2.7
+```
 
 #### MacOS
 
+Recent MacOS versions come with Python out of the box.
 
 #### Windows
 
-                                                                                 
+
+Installation instructions are [here](https://docs.python.org/2.7/using/windows.html).
+
+### Testing Python
+
+
+
 ## Neuron                                                                        
 
 For the Neuron simulator installation instructions, see [here](Neuron.md).
