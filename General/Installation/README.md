@@ -51,7 +51,11 @@ Installation instructions are [here](https://docs.python.org/2.7/using/windows.h
 
 ### Testing Python
 
-
+Open a commandline utility, and type 
+```
+python -c 'import os; print os.getcwd()'
+```
+which should print out the name of the directory you are currently in.
 
 ## Neuron                                                                        
 
