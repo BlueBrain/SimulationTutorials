@@ -4,7 +4,7 @@ Below you find installation instructions for all the software used in our tutori
 There are **two ways** you can go about this:
 * Install [Virtualbox](#virtualbox) and download a VM from the relevant tutorial. 
 This VM will have all the necessary software preinstalled.                
-* Install the software yourself: Neuron, IPython notebooks, eFEL, BluePyOpt
+* Install the software yourself (which won't be trivial depending on the OS you are using): Neuron, IPython notebooks, eFEL, BluePyOpt
 
 Please **test your installation** well before the tutorial starts.
 
@@ -20,13 +20,25 @@ To run these VMs it is necessary to **install the [VirtualBox](https://www.virtu
 
 You can **download** the necessary installers from [their download page](https://www.virtualbox.org/wiki/Downloads), and the follow [installation instructions](https://www.virtualbox.org/manual/ch01.html) they provide.
 
-### Testing VirtualBox
+#### Testing VirtualBox
 
 To test your installation download the VM relevant to your Tutorial, and boot it in VirtualBox.
 An example of such a VM (used for the FENS 2016 tutorial) is located [here](https://drive.google.com/open?id=0B5FLVTgErnMSbmZhZlFRbzF3T1U).
 
+## Python
+
+#### Linux
+
+
+#### MacOS
+
+
+#### Windows
+
                                                                                  
 ## Neuron                                                                        
-                                                                                 
+
+For the Neuron simulator installation instructions, see [here](Neuron.md).
+
                                                                                  
           
