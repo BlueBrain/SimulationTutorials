@@ -33,7 +33,7 @@ Make sure you can access external website inside the VM. To test this, open a br
 An alternative is to install all the required software packages manually on your desktop.
 We want to warn you that this might not be trivial.
 
-## Python
+## Python / Virtualenv / Pip
 
 A requirement for the installation of all the tools below is Python.
 We need version 2.7+ (some tools are not compatible with Python 3 yet).
@@ -52,8 +52,12 @@ Recent MacOS versions come with Python out of the box.
 
 #### Windows
 
-
 Installation instructions are [here](https://docs.python.org/2.7/using/windows.html).
+
+### Virtualenv / Pip
+
+Once you have Python installed, you should make sure pip is installed [correctly](https://pip.pypa.io/en/stable/installing/).
+And you should also work inside a Python virtualenv, see instructions [here](https://virtualenv.pypa.io/en/stable/userguide/)
 
 ### Testing Python
 
@@ -62,6 +66,14 @@ Open a commandline utility, and type
 python -c 'import os; print os.getcwd()'
 ```
 which should print out the name of the directory you are currently in.
+
+This
+```
+pip install pip --upgrade
+```
+should install the latest version of pip.
+
+Also make sure you managed to set up and activate a Python virtualenv.
 
 ## Neuron                                                                        
 
@@ -90,5 +102,26 @@ It's best to test your entire installation by running and downloading one the NM
 as described in the 'Running NEURON model packages' section of https://bbp.epfl.ch/nmc-portal/tools
 (the models should be able to be run using both Python and the GUI)
 
-## BluePyOpt
+## Jupyter notebooks
 
+https://virtualenv.pypa.io/en/stable/userguide/
+
+## BluePyOpt and eFEL
+
+
+
+### Testing eFEL
+
+Running
+```
+python -c 'import efel; print efel.getFeatureNames()'
+```
+should print a list of all the eFeature names
+
+### Testing BluePyOpt
+
+Running
+```
+ python -c 'import bluepyopt; print bluepyopt.__version__'
+```
+should print the BluePyOpt version installed
