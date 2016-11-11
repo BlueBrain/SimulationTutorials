@@ -13,6 +13,7 @@ Please **test your installation** well before the tutorial starts.
 Foremost, if you have any questions/problems regarding installing this software on your system, 
 please let us know on [our chat channel](https://gitter.im/BlueBrain/SimulationTutorials).
 
+# The easy way
 ## VirtualBox                                                                    
 
 We provide **Virtual Machines** with preinstalled software.
@@ -28,6 +29,9 @@ An example of such a VM (used for the FENS 2016 tutorial) is located [here](http
 Make sure you can access external website inside the VM. To test this, open a browser, and go to https://bbp.epfl.ch/nmc-portal/welcome
 
 ## ** ! All the instructions below are only necessary if you don't use the VM ! **
+# The hard way
+An alternative is to install all the required software packages manually on your desktop.
+We want to warn you that this might not be trivial.
 
 ## Python
 
@@ -61,7 +65,8 @@ which should print out the name of the directory you are currently in.
 
 ## Neuron                                                                        
 
-For all functionality work you need to have Neuron installed with Python and X11 support, and you need to be able to compile MOD files.
+For all functionality work you need to have Neuron installed **with Python and X11 support**, and you need to be able to **compile MOD files**.
+Instructions for different operating systems are provided [here](http://www.neuron.yale.edu/neuron/)
 
 ### Testing Neuron
 
@@ -83,3 +88,7 @@ nrnivmodl
 ```
 It's best to test your entire installation by running and downloading one the NMC portal models, 
 as described in the 'Running NEURON model packages' section of https://bbp.epfl.ch/nmc-portal/tools
+(the models should be able to be run using both Python and the GUI)
+
+## BluePyOpt
+
