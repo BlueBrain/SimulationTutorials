@@ -59,7 +59,15 @@ which should print out the name of the directory you are currently in.
 
 ## Neuron                                                                        
 
-For the Neuron simulator installation instructions, see [here](Neuron.md).
+For all functionality work you need to have Neuron installed with Python and X11 support, and you need to be able to compile MOD files.
+
+### Testing Neuron
+
+Open a commandline utility, and type
+```
+python -c 'import neuron; soma = neuron.h.Section(); print neuron.h.secname(sec=soma)'
+```
+which should print out the Neuron banner, and the value '-65'
 
                                                                                  
           
