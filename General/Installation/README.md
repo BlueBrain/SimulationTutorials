@@ -25,7 +25,9 @@ You can **download** the necessary installers from [their download page](https:/
 To test your installation download the VM relevant to your Tutorial, and boot it in VirtualBox.
 An example of such a VM (used for the FENS 2016 tutorial) is located [here](https://drive.google.com/open?id=0B5FLVTgErnMSbmZhZlFRbzF3T1U).
 
-## ** ! All instructions below are only necessary if you don't use the VM ! **
+Make sure you can access external website inside the VM. To test this, open a browser, and go to https://bbp.epfl.ch/nmc-portal/welcome
+
+## ** ! All the instructions below are only necessary if you don't use the VM ! **
 
 ## Python
 
@@ -67,7 +69,17 @@ Open a commandline utility, and type
 ```
 python -c 'import neuron; soma = neuron.h.Section(); print neuron.h.secname(sec=soma)'
 ```
-which should print out the Neuron banner, and the value '-65'
+which should print out the Neuron banner, and the value '-65'.
 
+When you type
+```
+nrngui
+```
+the Neuron graphical user interface should pop up.
                                                                                  
-          
+You should be able to compile Neuron MOD using the command:
+```
+nrnivmodl
+```
+It's best to test your entire installation by running and downloading one the NMC portal models, 
+as described in the 'Running NEURON model packages' section of https://bbp.epfl.ch/nmc-portal/tools
