@@ -104,11 +104,27 @@ as described in the 'Running NEURON model packages' section of https://bbp.epfl.
 
 ## Jupyter notebooks
 
-https://virtualenv.pypa.io/en/stable/userguide/
+Information is available [here](http://jupyter.org/)
+Installing is done by
+```
+pip install jupyter
+```
+
+### Testing jupyter notebooks
+
+When you run 
+```
+jupyter notebook
+```
+it should open your browser on a page connected to the jupyter notebook kernel.
 
 ## BluePyOpt and eFEL
 
-
+You can install BluePyOpt using
+```
+pip install bluepyopt
+```
+this should also automatically install eFEL as a dependency.
 
 ### Testing eFEL
 
