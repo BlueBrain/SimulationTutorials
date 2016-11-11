@@ -105,7 +105,8 @@ as described in the 'Running NEURON model packages' section of https://bbp.epfl.
 ## Jupyter notebooks
 
 Information is available [here](http://jupyter.org/)
-Installing is done by
+
+Installing using
 ```
 pip install jupyter
 ```
