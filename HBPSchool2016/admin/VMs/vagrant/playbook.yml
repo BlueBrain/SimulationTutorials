@@ -125,6 +125,13 @@
         become: true
         become_user: hbpschool2016
 
+      - name: HBPSchool2016 link
+        file: src=/home/hbpschool2016/Desktop/SimulationTutorials/HBPSchool2016
+              dest=/home/hbpschool2016/Desktop/HBPSchool2016
+              state=link
+        become: true
+        become_user: hbpschool2016
+        
       - name: set dock icons
         shell: dbus-launch gsettings set com.canonical.Unity.Launcher favorites "['application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'application://unity-control-center.desktop', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']"
         become: true
