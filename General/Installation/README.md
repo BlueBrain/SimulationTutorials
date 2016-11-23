@@ -67,6 +67,14 @@ python -c 'import os; print os.getcwd()'
 ```
 which should print out the name of the directory you are currently in.
 
+<<<<<<< HEAD
+## Neuron                                                                        
+
+For the Neuron simulator installation instructions, see [here](Neuron.md).
+
+                                                                                 
+          
+=======
 This
 ```
 pip install pip --upgrade

@@ -1,0 +1,176 @@
+---
+
+- hosts: all
+  become_user: root
+  become_method: sudo
+  gather_facts: no
+  
+  vars:
+      nrn_apt_packages:
+
+  pre_tasks:
+      # Install python 2
+      - name: install python 2
+        raw: test -e /usr/bin/python || (sudo apt -y update && sudo apt install -y python-minimal)
+        
+  tasks:
+      - name: set hostname
+        hostname: name=hbpschool2016
+        become: true
+
+      # create user
+      - name: create hbpschool2016 user
+        user: name=hbpschool2016 
+              state=present
+              uid=1025
+              comment="hbpschool2016" 
+              group=staff 
+              groups=users 
+              append=yes 
+              shell="/bin/bash" 
+              password="vOIB5woVyD2j6"
+        become: true
+      
+      # Install APT packages
+      - name: install apt packages
+        apt: name={{ item }} update_cache=yes
+        become: true
+        with_items:
+            - "htop"
+            - "ncurses-dev"
+            - "libreadline-dev"
+            - "bison"
+            - "flex"
+            - "libxext-dev"
+            - "git"
+      
+      - name: install desktop
+        apt: name="ubuntu-desktop" update_cache=yes
+        become: true
+      
+      - name: install virtualbox guest extensions
+        apt: name={{ item }} update_cache=yes
+        become: true
+        with_items:
+            - "virtualbox-guest-dkms"
+            - "virtualbox-guest-utils"
+            - "virtualbox-guest-x11"
+        
+      - name: install python packages
+        apt: name={{ item }} update_cache=yes
+        become: true
+        with_items:
+            - "python-pip"
+            - "python-dev"
+            - "python-virtualenv"
+
+      # install and upgrade pip packages
+      - name: install pip packages
+        pip: name={{ item }} state=latest virtualenv=/home/hbpschool2016/local/pythonenv
+        become: true
+        become_user: hbpschool2016
+        with_items:
+            - "duk"
+            - "pip"
+            - "efel"
+            - "ipyparallel"
+            - "jupyter"
+            - "matplotlib"
+
+      - name: activate virtualenv
+        lineinfile: dest=/home/hbpschool2016/.bashrc state=present line="source $HOME/local/pythonenv/bin/activate"
+        become: true
+        become_user: hbpschool2016
+        
+      - name: copy desktop background
+        become: true
+        copy: src=data/hbpschool.jpg dest=/usr/share/backgrounds/hbpschool.jpg owner=root group=root mode="u+rw,g-wx,o-wx"
+  
+      - name: activate virtualenv
+        lineinfile: dest=/home/hbpschool2016/.bashrc state=present line="source $HOME/local/pythonenv/bin/activate"
+        become: true
+        become_user: hbpschool2016
+       
+      # Set greeter wallpaper
+      - name: greeter background
+        lineinfile: dest=/usr/share/glib-2.0/schemas/10_unity_greeter_background.gschema.override 
+                    line='{{item}}'
+                    create=yes
+        become: true
+        with_items:
+            - "[com.canonical.unity-greeter]"
+            - "draw-user-backgrounds=false"
+            - "background='/usr/share/backgrounds/hbpschool.jpg'"
+      
+      - name: greeter background
+        shell: glib-compile-schemas /usr/share/glib-2.0/schemas/
+        become: true
+
+      # Set autologin
+      - name: greet background
+        lineinfile: dest=/etc/lightdm/lightdm.conf
+                    line='{{item}}'
+                    create=yes
+        become: true
+        with_items:
+            - "[SeatDefaults]"
+            - "greeter-show-manual-login=true"
+            - "autologin-user=hbpschool2016"
+            - "default-user=hbpschool2016"
+
+      # Get Simulation tutorials
+      - name: simulation tutorials
+        git: repo=https://github.com/BlueBrain/SimulationTutorials.git
+             dest=/home/hbpschool2016/Desktop/SimulationTutorials
+        become: true
+        become_user: hbpschool2016
+
+      - name: HBPSchool2016 link
+        file: src=/home/hbpschool2016/Desktop/SimulationTutorials/HBPSchool2016
+              dest=/home/hbpschool2016/Desktop/HBPSchool2016
+              state=link
+        become: true
+        become_user: hbpschool2016
+        
+      - name: set dock icons
+        shell: dbus-launch gsettings set com.canonical.Unity.Launcher favorites "['application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'application://unity-control-center.desktop', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']"
+        become: true
+        become_user: hbpschool2016
+      
+      - name: set dock icons
+        shell: dbus-launch gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/hbpschool.jpg"
+        become: true
+        become_user: hbpschool2016
+
+      - name: srcdir link
+        file: path=/home/hbpschool2016/src
+              state=directory
+        become: true
+        become_user: hbpschool2016
+        
+      - include: neuron.yml
+        become: true
+        become_user: hbpschool2016
+        vars:
+            nrn_version: 7.4
+            iv_version: 19
+            download_path: http://www.neuron.yale.edu/ftp/neuron/versions/v7.4
+            iv_tarball: iv-{{ iv_version }}.tar.gz
+            nrn_tarball: nrn-{{ nrn_version }}.tar.gz
+            src_dir: /home/hbpschool2016/src
+            iv_src_dir: "{{ src_dir }}/iv-{{ iv_version }}"
+            nrn_src_dir: "{{ src_dir }}/nrn-{{ nrn_version }}"
+            venv: /home/hbpschool2016/local/pythonenv
+            nrn_prefix: /home/hbpschool2016/local/nrn
+
+      - name: activate neuron
+        lineinfile: dest=/home/hbpschool2016/.bashrc state=present line="export PATH=$HOME/local/nrn/x86_64/bin:$PATH"
+        become: true
+        become_user: hbpschool2016
+      
+      - name: Install bluepyopt
+        pip: name={{ item }} state=latest virtualenv=/home/hbpschool2016/local/pythonenv
+        become: true
+        become_user: hbpschool2016
+        with_items:
+            - "bluepyopt"  
