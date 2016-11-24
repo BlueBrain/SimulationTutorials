@@ -19,12 +19,12 @@ please let us know on [our chat channel](https://gitter.im/BlueBrain/SimulationT
 We provide **Virtual Machines** with preinstalled software.
 To run these VMs it is necessary to **install the [VirtualBox](https://www.virtualbox.org)**. Linux, MacOS and Windows are supported.
 
-You can **download** the necessary installers from [their download page](https://www.virtualbox.org/wiki/Downloads), and the follow [installation instructions](https://www.virtualbox.org/manual/ch01.html) they provide.
+You can **download** the necessary installers from [their download page](https://www.virtualbox.org/wiki/Downloads), and the follow [installation instructions](https://www.virtualbox.org/manual/ch01.html) they provide. It should be sufficient to only install the 'VirtualBox platform packages'.
 
 #### Testing VirtualBox
 
 To test your installation download the VM relevant to your Tutorial, and boot it in VirtualBox.
-An example of such a VM (used for the FENS 2016 tutorial) is located [here](https://drive.google.com/open?id=0B5FLVTgErnMSbmZhZlFRbzF3T1U).
+An example of such a VM (used for the HBP School 2016 tutorial) is located [here](https://drive.google.com/drive/u/1/folders/0B5FLVTgErnMSTm9JTk9FTFNCV2s).
 
 Make sure you can access external website inside the VM. To test this, open a browser, and go to https://bbp.epfl.ch/nmc-portal/welcome
 
