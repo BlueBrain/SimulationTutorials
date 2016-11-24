@@ -6,7 +6,16 @@ The main part of this demo consists of :
 
 ## News
 
+* 2016/11/24: Added a first version of the Virtual Machine with all the software
 * 2016/11/11: Installation instructions added here https://github.com/BlueBrain/SimulationTutorials/tree/master/General/Installation
+
+## Virtual Machine
+
+A **Google drive** was created with **material** for the tutorial:
+
+https://drive.google.com/drive/u/1/folders/0B5FLVTgErnMSTm9JTk9FTFNCV2s
+
+This drive contains a **Virtual Machine** (.ova file) that can be used to run the demoed software.
 
 ## Support
 
