@@ -19,6 +19,8 @@ This drive contains a **Virtual Machine** (.ova file) that can be used to run th
 
 Please follow the **instructions** [here](https://github.com/BlueBrain/SimulationTutorials/tree/master/General/Installation) to install VirtualBox so that you can run the VM on your machine.
 
+The login information for the VM: username=hbpschool2016 password=hbp2016
+
 ## Support
 
 If you have any questions/comments regarding this tutorial, 
