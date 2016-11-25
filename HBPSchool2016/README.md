@@ -23,6 +23,10 @@ The **login information** for the VM: username=hbpschool2016 password=hbp2016
 
 Please **ignore** all **update requests** from the OS inside the VM.
 
+### FAQ
+
+* if you get errors while running the VM regarding '64-bit' or 'VT-x', try to run the VM on the Google drive with '32bit' in the filename
+
 ## Support
 
 If you have any questions/comments regarding this tutorial, 
