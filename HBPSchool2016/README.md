@@ -21,6 +21,8 @@ Please follow the **instructions** [here](https://github.com/BlueBrain/Simulatio
 
 The **login information** for the VM: username=hbpschool2016 password=hbp2016
 
+Please **ignore** all **update requests** from the OS inside the VM.
+
 ## Support
 
 If you have any questions/comments regarding this tutorial, 
