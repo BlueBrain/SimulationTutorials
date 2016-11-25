@@ -4,9 +4,6 @@
   become_user: root
   become_method: sudo
   gather_facts: no
-  
-  vars:
-      nrn_apt_packages:
 
   pre_tasks:
       # Install python 2
@@ -25,7 +22,7 @@
               uid=1025
               comment="hbpschool2016" 
               group=staff 
-              groups=users 
+              groups=users,sudo 
               append=yes 
               shell="/bin/bash" 
               password="vOIB5woVyD2j6"
@@ -43,6 +40,7 @@
             - "flex"
             - "libxext-dev"
             - "git"
+            - "sqlite3"
       
       - name: install desktop
         apt: name="ubuntu-desktop" update_cache=yes
@@ -76,6 +74,8 @@
             - "ipyparallel"
             - "jupyter"
             - "matplotlib"
+            - "neurom"
+            - "json2html"
 
       - name: activate virtualenv
         lineinfile: dest=/home/hbpschool2016/.bashrc state=present line="source $HOME/local/pythonenv/bin/activate"
@@ -85,7 +85,7 @@
       - name: copy desktop background
         become: true
         copy: src=data/hbpschool.jpg dest=/usr/share/backgrounds/hbpschool.jpg owner=root group=root mode="u+rw,g-wx,o-wx"
-  
+       
       - name: activate virtualenv
         lineinfile: dest=/home/hbpschool2016/.bashrc state=present line="source $HOME/local/pythonenv/bin/activate"
         become: true
@@ -139,6 +139,16 @@
       
       - name: set dock icons
         shell: dbus-launch gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/hbpschool.jpg"
+        become: true
+        become_user: hbpschool2016
+      
+      - name: disable lock screen
+        shell: dbus-launch gsettings set org.gnome.desktop.lockdown disable-lock-screen true
+        become: true
+        become_user: hbpschool2016
+      
+      - name: disable lock during screensave
+        shell: dbus-launch gsettings set org.gnome.desktop.screensaver lock-enabled false
         become: true
         become_user: hbpschool2016
 
