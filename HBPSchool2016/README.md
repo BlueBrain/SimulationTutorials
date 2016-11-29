@@ -4,6 +4,20 @@ The main part of this demo consists of :
 * **Extracting electrical features from voltage traces**
 * **Optimising parameters of a full dendritic model**
 
+This tutorial is presented by Elisabetta Iavarone and Werner Van Geit (@ Blue Brain Project, Geneva, Switzerland)
+
+## Schedule
+
+Date: Nov 29 2016
+* Start: 16:00
+* Solving installation problems (max 10 min)
+* Workflow / eFEL / BluePyOpt introduction (Werner, 30 min)
+* eFEL notebook introduction (Elisabetta, 10-15 min)
+* Exercise eFEL students (max 30 min)
+* Introduction NMC Portal / NMC models (Werner, 10 min)
+* BluePyOpt notebook introduction (Werner, 30 min)
+* BluePyOpt challenge students (max 1 hour)
+
 ## News
 
 * 2016/11/24: Added a first version of the Virtual Machine with all the software
