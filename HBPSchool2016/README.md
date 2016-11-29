@@ -40,6 +40,7 @@ Please **ignore** all **update requests** from the OS inside the VM.
 ### FAQ
 
 * if you get errors while running the VM regarding '64-bit' or 'VT-x', try to run the VM on the Google drive with '32bit' in the filename
+* you might get an error about 'shared folder' when first opening the .ova file, you can ignore these.
 
 ## Support
 
