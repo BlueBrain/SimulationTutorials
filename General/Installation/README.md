@@ -92,7 +92,7 @@ Instructions for different operating systems are provided [here](http://www.neur
 
 Open a commandline utility, and type
 ```
-python -c 'import neuron; soma = neuron.h.Section(); print neuron.h.secname(sec=soma)'
+python -c 'import neuron; soma = neuron.h.Section(); print soma.v'
 ```
 which should print out the Neuron banner, and the value '-65'.
 

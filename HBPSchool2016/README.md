@@ -41,6 +41,7 @@ Please **ignore** all **update requests** from the OS inside the VM.
 
 * if you get errors while running the VM regarding '64-bit' or 'VT-x', try to run the VM on the Google drive with '32bit' in the filename
 * you might get an error about 'shared folder' when first opening the .ova file, you can ignore these.
+* for people who to chose the 'hard way' to install Neuron etc. There was an error in the instruction on how to test the Neuron installation (the test command didn't return -65 mV). This is now fixed in the instruction pages.
 
 ## Support
 
