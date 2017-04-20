@@ -29,7 +29,7 @@ A **Google drive** was created with **material** for the tutorial:
 
 https://drive.google.com/drive/u/1/folders/0B5FLVTgErnMSTm9JTk9FTFNCV2s
 
-This drive contains a **Virtual Machine** (.ova file) that can be used to run the demoed software.
+This drive contains a **Virtual Machine** (.ova file) that can be used to run the demoed software, donwload the file with "final" in the filename.
 
 Please follow the **instructions** [here](https://github.com/BlueBrain/SimulationTutorials/tree/master/General/Installation) to install VirtualBox so that you can run the VM on your machine.
 
