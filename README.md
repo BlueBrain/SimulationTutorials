@@ -5,6 +5,14 @@
 
 This repository contains the **code for tutorials** given by the **Blue Brain Project** related to **electrophysiological data-driven modeling**
 
+## NSAS School 2017
+
+On **April 24th 2017**, we present a **Single cell and synapses Modeling Tutorial** at the 
+[**NSAS - Connectomics Advanced Course **](http://www.nsas.it/courses-workshops/advanced-courses/connectomics/).
+
+The content of this tutorial is located [here](NSAS2017/).
+
+
 ## HBP School 2016
 
 On **November 29th 2016**, we present a **Cell Types Data and Modeling Tutorial** at the 
