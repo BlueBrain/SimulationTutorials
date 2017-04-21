@@ -8,7 +8,7 @@ This repository contains the **code for tutorials** given by the **Blue Brain Pr
 ## NSAS School 2017
 
 On **April 24th 2017**, we present a **Single cell and synapses Modeling Tutorial** at the 
-[**NSAS - Connectomics Advanced Course **](http://www.nsas.it/courses-workshops/advanced-courses/connectomics/).
+[**NSAS - Connectomics Advanced Course**](http://www.nsas.it/courses-workshops/advanced-courses/connectomics/).
 
 The content of this tutorial is located [here](NSAS2017/).
 
