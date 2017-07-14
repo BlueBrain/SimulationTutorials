@@ -5,6 +5,14 @@
 
 This repository contains the **code for tutorials** given by the **Blue Brain Project** related to **electrophysiological data-driven modeling**
 
+## CNS 2017
+
+On **July 15th 2017**, we present a **Detailed modeling of structure and function at the cellular level Tutorial** at the
+[**26th Annual Computational Neuroscience Meeting**](http://www.cnsorg.org/cns-2017-tutorials).
+
+The content of this tutorial is located [here](CNS2017/).
+
+
 ## NSAS School 2017
 
 On **April 24th 2017**, we present a **Single cell and synapses Modeling Tutorial** at the 
