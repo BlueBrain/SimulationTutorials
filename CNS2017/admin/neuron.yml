@@ -1,0 +1,48 @@
+---
+
+- name: Get iv Source
+  get_url: url={{ download_path }}/{{ iv_tarball }} dest={{ src_dir }}/{{ iv_tarball }}
+
+- name: Get nrn Source
+  get_url: url={{ download_path }}/{{ nrn_tarball }} dest={{ src_dir }}/{{ nrn_tarball }}
+
+- name: Untar iv source
+  unarchive: copy=no src={{ src_dir }}/{{ iv_tarball }} dest={{ src_dir }}
+
+- name: Untar nrn source
+  unarchive: copy=no src={{ src_dir }}/{{ nrn_tarball }} dest={{ src_dir }}
+
+- name: configure iv
+  shell: "./configure --prefix={{ nrn_prefix }}"
+  args:
+    chdir: "{{ iv_src_dir }}"
+
+- name: build iv
+  shell: make
+  args:
+    chdir: "{{ iv_src_dir }}"
+
+- name: install iv
+  shell: make install
+  args:
+    chdir: "{{ iv_src_dir }}"
+    
+- name: configure neuron
+  shell: "./configure --with-iv={{ nrn_prefix }} --with-nrnpython --prefix={{ nrn_prefix }}"
+  args:
+    chdir: "{{ nrn_src_dir }}"
+
+- name: build neuron
+  shell: make
+  args:
+    chdir: "{{ nrn_src_dir }}"
+
+- name: install neuron
+  shell: make install
+  args:
+    chdir: "{{ nrn_src_dir }}"
+
+- name: install nrnpython
+  shell: "{{ venv }}/bin/python setup.py install"
+  args:
+    chdir: "{{ nrn_src_dir }}/src/nrnpython"
