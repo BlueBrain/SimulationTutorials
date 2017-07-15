@@ -15,7 +15,7 @@ Date: July 15 2017
 * Introduction (Presentation, ~ 20 min)
 * NEURON tutorial Part. 1 (~ 1 hour)
 * Coffe break
-* NEURON tutorial (~ 30 minutes)
+* NEURON tutorial Part. 2 (~ 30 minutes)
 * eFEL tutorial (15 minutes notebook demo + 10 minutes exercise)
 * BluePyOpt tutorial (30 minutes notebook demo + 15 minutes exercise)
 
