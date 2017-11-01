@@ -18,7 +18,7 @@ Date: November 10 2017
 ## Virtual Machine
 
 A **Google drive** was created with **material** for the tutorial:
-
+https://drive.google.com/drive/folders/0B_t-Q_iriAyARUxnNElDdkxDMEU?usp=sharing
 
 This drive contains a **Virtual Machine** (.ova file) that can be used to run the demoed software, donwload the file with "final" in the filename.
 

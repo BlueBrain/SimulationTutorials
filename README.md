@@ -9,7 +9,7 @@ This repository contains the **code for tutorials** given by the **Blue Brain Pr
 
 On **November 10th 2017**, we present a breakout session "Data-Driven Neurophysiology and Neuronal Modelling". It is part of the [**Society for Neuroscience (SfN) Annual Meeting Preconference Sessions**](https://www.sfn.org/annual-meeting/neuroscience-2017/sessions-and-events/sfn-preconference-sessions), **SHORT COURSE 2: Neuroinformatics in the Age of Big Data: Working With the Right Data and Tools**.
 
-The content of this tutorial is locate [here](SfN2017/). 
+The content of this tutorial is located [here](SfN2017/). 
 
 ## CNS 2017
 
