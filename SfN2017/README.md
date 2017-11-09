@@ -2,7 +2,7 @@
 
 The main parts of this demo consists of :
 * **Extracting electrical features from in vitro recordings**
-* **Optimising parameters of a simple neuron model**
+* **Optimising parameters of neuron models**
 
 This tutorial is presented by Elisabetta Iavarone (@ Blue Brain Project, Geneva, Switzerland)
 
@@ -11,8 +11,6 @@ This tutorial is presented by Elisabetta Iavarone (@ Blue Brain Project, Geneva,
 Date: November 10 2017
 * Session 1: 15:45 - 16:45
 * Session 2: 17:00 - 18:00
-
-## News
 
 
 ## Virtual Machine
