@@ -2,6 +2,7 @@
 
 [![Join the chat at https://gitter.im/BlueBrain/SimulationTutorials](https://badges.gitter.im/BlueBrain/SimulationTutorials.svg)](https://gitter.im/BlueBrain/SimulationTutorials?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/BlueBrain/SimulationTutorials)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This repository contains the **code for tutorials** given by the **Blue Brain Project** related to **electrophysiological data-driven modeling**
 
@@ -68,3 +69,14 @@ The content provided in this repository was created by the **following contribut
 The development of this software was supported by funding to the Blue Brain Project, a research center of the École polytechnique fédérale de Lausanne (EPFL), from the Swiss government's ETH Board of the Swiss Federal Institutes of Technology.
  
 Copyright © 2016-2022 Blue Brain Project/EPFL
+
+# License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
